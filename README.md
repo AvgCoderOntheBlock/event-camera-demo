@@ -100,11 +100,9 @@ This is a deterministic grouping example, not a measured network experiment.
 
 Based on Gallego et al., *Event-based Vision: A Survey*, IEEE TPAMI (2022),
 particularly Section 2.4 (capture), Section 3.1 (representations), and the
-compression/reconstruction discussion in Section 4.6. The attached version has
-an earlier manuscript date. Use your course's bibliographic citation.
+compression/reconstruction discussion in Section 4.6. 
 
-All event-generation and batching code was written for this teaching demo, not
-downloaded from an existing event-camera implementation. NumPy supplies arrays;
+NumPy supplies arrays;
 Matplotlib supplies plotting/animation; Pillow writes GIFs. This is a simplified
 model described by a survey, not a reproduction of a proposed novel algorithm.
 Packetization is a classroom extension motivated by variable-rate event output.
