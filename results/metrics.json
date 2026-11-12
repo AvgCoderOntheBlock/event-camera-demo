@@ -1,0 +1,43 @@
+{
+  "scenario": "move",
+  "threshold": 0.3,
+  "sample_rate_hz": 240,
+  "duration_s": 4.0,
+  "event_count": 12000,
+  "assumed_bytes_per_event": 8,
+  "event_window_ms": 40,
+  "packet_window_ms": 20,
+  "packet_count": 700,
+  "threshold_counts": {
+    "0.1": 38400,
+    "0.2": 19200,
+    "0.3": 12000,
+    "0.5": 6000
+  },
+  "packetization": {
+    "time": {
+      "packets": 50,
+      "sent_events": 12000,
+      "pending_events": 0,
+      "mean_wait_ms": 10.000000000000025,
+      "max_wait_ms": 15.000000000000124,
+      "oldest_pending_ms": 0.0
+    },
+    "count": {
+      "packets": 17,
+      "sent_events": 11900,
+      "pending_events": 100,
+      "mean_wait_ms": 67.6470588235294,
+      "max_wait_ms": 150.00000000000034,
+      "oldest_pending_ms": 1525.0
+    },
+    "hybrid": {
+      "packets": 50,
+      "sent_events": 12000,
+      "pending_events": 0,
+      "mean_wait_ms": 20.000000000000018,
+      "max_wait_ms": 20.000000000000018,
+      "oldest_pending_ms": 0.0
+    }
+  }
+}
